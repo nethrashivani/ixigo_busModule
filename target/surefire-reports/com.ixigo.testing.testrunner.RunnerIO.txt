@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.ixigo.testing.testrunner.RunnerIO
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 878.7 s -- in com.ixigo.testing.testrunner.RunnerIO

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-23T01:01:03 IST" name="Surefire suite" finished-at="2026-10-23T01:15:41 IST" duration-ms="877981">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ixigo.testing.testrunner.RunnerIO@1139b2f3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-10-23T01:01:03 IST" name="Surefire test" finished-at="2026-10-23T01:15:41 IST" duration-ms="877981">
+      <class name="com.ixigo.testing.testrunner.RunnerIO">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.ixigo.testing.testrunner.RunnerIO@1139b2f3]" started-at="2026-10-23T01:01:03 IST" name="setUpClass" finished-at="2026-10-23T01:01:03 IST" duration-ms="688" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7ef9c8a5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ixigo.testing.testrunner.RunnerIO@1139b2f3]" started-at="2026-10-23T01:01:03 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-23T01:02:52 IST" duration-ms="108808" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User searches for buses between cities"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bus Booking functionality in ixigo"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ixigo.testing.testrunner.RunnerIO@1139b2f3]" started-at="2026-10-23T01:02:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-23T01:05:37 IST" duration-ms="165202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User applies mandatory filters on bus results"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bus Booking functionality in ixigo"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ixigo.testing.testrunner.RunnerIO@1139b2f3]" started-at="2026-10-23T01:05:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-23T01:07:15 IST" duration-ms="97465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User applies optional price filter on bus results"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bus Booking functionality in ixigo"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ixigo.testing.testrunner.RunnerIO@1139b2f3]" started-at="2026-10-23T01:07:15 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-23T01:10:43 IST" duration-ms="208098" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User selects a bus and chooses a seat"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bus Booking functionality in ixigo"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ixigo.testing.testrunner.RunnerIO@1139b2f3]" started-at="2026-10-23T01:10:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-23T01:15:41 IST" duration-ms="297650" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User fills passenger details and proceeds to payment"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bus Booking functionality in ixigo"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.ixigo.testing.testrunner.RunnerIO@1139b2f3]" started-at="2026-10-23T01:15:41 IST" name="tearDownClass" finished-at="2026-10-23T01:15:41 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.ixigo.testing.testrunner.RunnerIO -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
